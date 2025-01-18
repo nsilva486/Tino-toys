@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Tino Toys</title>
+    <link rel="stylesheet" href="CSS/C.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">Tino Toys</a></div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <form action="backend/contact.php" method="post" class="form">
+            <input type="text" name="name" placeholder="Full Name" class="box" required>
+            <input type="email" name="email" placeholder="Email Address" class="box" required>
+            <textarea name="message" placeholder="Your Message" class="box" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+</body>
+</html>

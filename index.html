@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Toy store with best prices</title>
+
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+     <!--font awesome cdn link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+     <!--custom css file link-->
+     <link rel ="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="CSS/home.css">
+    </head>
+    <body>
+      <!--header section starts-->
+      <header class = "header">
+        <div class ="logo">
+             <img src="https://st5.depositphotos.com/28687978/64677/v/450/depositphotos_646774988-stock-illustration-toy-logo-toy-letter-toy.jpg" alt=" fa-fast shopping basket"class="logo">Tino toys</a>
+        </div>  
+        <nav class="navbar">
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+            <a href="policy.html">Privacy Policy</a>
+            <a href="#Home">Home</a>
+        </nav>
+
+        <div class ="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        
+
+        <form action="" class = "search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://images-na.ssl-images-amazon.com/images/I/717dUxCNDNL._AC_UL600_SR600,600_.jpg" alt="">
+                <div class="content">
+                    <h3>Bicycle</h3>
+                    <span class ="price">Rs 12,000</span>
+                    <span class ="quantity">qty: 10</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://eu.merch.larian.com/media/cache/sylius_shop_product_original/50/fb/10d9feae892183d1ac86f2343eff.jpeg" alt="">
+                <div class="content">
+                    <h3>Boardgame</h3>
+                    <span class ="price">Rs 200</span>
+                    <span class ="quantity">qty: 20</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="https://m.media-amazon.com/images/I/71x1l4o13ML.jpg" alt="">
+                <div class="content">
+                    <h3>RC boat</h3>
+                    <span class ="price">Rs 3000</span>
+                    <span class ="quantity">qty: 20</span>
+                </div>
+            </div>
+            <div class="total" style="font-size: 3.5rem;">Total: Rs 15,200</div>
+            <a heref="#" class ="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email"placeholder="your email"class="box">
+            <input type="password"placeholder="your password"class="box">
+            <p>forget your password<a href="#">click here</a></p>
+            <p>don't have an account<a href="#">create now</a></p>
+            <input type="submit"value ="login now"class="btn">
+        </form>
+
+
+
+      </header>
+
+      <!--header section ends-->
+     <!--home section starts-->
+     <section class ="home" id="home">
+        <div class ="contentx">
+            <h3>Welcome to Toy Basket<span>Where Fun </span>Meets Quality!</h3>
+        </div>
+     </section>
+      <!--home section ends-->
+      <!--feature section starts-->
+      <section class="features" id="features">
+        <h1 class="heading">Our <span>features</span></h1>
+        
+        <!-- Wrap all .box items in a container with the .box-container class -->
+        <div class="box-container">
+            <div class="swiper-slide box">
+                <img src="https://images-platform.99static.com//DK-wcNxFNPAtjeWVyj5lio6ogo8=/384x8:1623x1247/fit-in/500x500/99designs-contests-attachments/99/99209/attachment_99209854" alt="">
+                <h3>Best toys in the World</h3>
+                <p>Discover the magic of play with our handpicked selection of the best toys in the world!...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    
+            <div class="swiper-slide box">
+                <img src="https://img.freepik.com/free-psd/vintage-pizzeria-logo-design_23-2151236943.jpg" alt="">
+                <h3>Free delivery</h3>
+                <p>Enjoy the convenience of free delivery on all your favorite toys!...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+    
+            <div class="swiper-slide box">
+                <img src="https://freedesignfile.com/upload/2016/04/Easy-pay-logo-vector.jpg" alt="">
+                <h3>Easy Payment</h3>
+                <p>Shopping for toys has never been easier with our flexible and secure payment options!...</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+      <!--feature section ends-->
+
+      <!--toy section starts-->
+      <section class="products" id="products">
+        <h1 class="heading">Our<span>Toy Section</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://i5.walmartimages.com/seo/4drc-1-16-Large-Scale-RC-Car-4WD-60KM-H-High-Speed-Remote-Control-Lights-Kids-Adults-Off-Road-Monster-Crawler-Truck-Toy-Boys-2-Batteries_ee115fe0-4a65-4217-843e-4ca3f59665a4.710ce1274ba929ce52b1f780a02630bb.jpeg" alt="">
+                    <h3>Rc Car</h3>
+                    <div class="price">Rs 5000 - 9000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://down-ph.img.susercontent.com/file/122044daa02d36a838735e25f666fe4d" alt="">
+                    <h3>Meteo L-Drago LW105LF Beyblade BB-88 Metal Masters 4D</h3>
+                    <div class="price">Rs 500 - 1000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://i5.walmartimages.com/asr/8ede178e-a8e1-4f13-aa66-f250d4954b8d.135a1ccd582d3ef7a8706dac2e6cdb78.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF" alt="">
+                    <h3>Teddy Bear</h3>
+                    <div class="price">Rs 400 - 700/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://m.media-amazon.com/images/I/71od9pwgU+L._AC_UF1000,1000_QL80_.jpg" alt="">
+                    <h3>Semi auto BB air pistol</h3>
+                    <div class="price">Rs 1500 - 2000/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://uk.spyra.com/cdn/shop/products/SPTR_blue_4.jpg?v=1710513383" alt="">
+                    <h3>Water Gun</h3>
+                    <div class="price">Rs 1500 - 2200/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://my-live-02.slatic.net/p/85e52958f71008bae45950d52205c08a.jpg" alt="">
+                    <h3>Fate Grand Order Saber Alter</h3>
+                    <div class="price">Rs 1000 - 1700/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a heref="#" class="btn">Add to Cart</a>
+                    
+                </div>
+
+
+      </section>
+      <!--product section ends-->
+
+      <!--category section starts-->
+      <section class ="categories" id="categories">
+
+        <h1 class ="heading">Toy<span>categories</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="https://static.boredpanda.com/blog/wp-content/uploads/2017/02/action-toys-scenes-marvel-hotkenobi-1-58ab2d3e4f6df__700.jpg">
+                <h3>Action figures</h3>
+                <p>upto 25% off</p>
+                <a heref="#" class="btn">shop now</a>
+            </div>
+            
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1206320907/photo/united-for-earth-and-animal-protection-composition-istock-photography.jpg?s=612x612&w=0&k=20&c=GPySKp6dsn2BGLCV4ctDYCmI-RMQ_iKk0FKl-4_nG1s=">
+                <h3>Animals</h3>
+                <p>upto 15% off</p>
+                <a heref="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://media.istockphoto.com/id/1072351298/photo/young-girl-playing-with-educational-toys.jpg?s=612x612&w=0&k=20&c=FetuwtUPQoy7GfAZCNRbmVZ7JXggsJOXkS3b1gSbTYw=">
+                <h3>Creative toys</h3>
+                <p>upto 5% off</p>
+                <a heref="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://thumbs.dreamstime.com/b/wooden-kids-toys-colourful-paper-educational-toys-blocks-numbers-letters-train-toys-kindergarten-preschool-wooden-kids-toys-164868407.jpg">
+                <h3>Educational toys</h3>
+                <p>upto 5% off</p>
+                <a heref="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="https://m.media-amazon.com/images/I/81KM-JztNAL._AC_SL1500_.jpg">
+                <h3>Educational toys</h3>
+                <p>upto 5% off</p>
+                <a heref="#" class="btn">shop now</a>
+            </div>
+
+
+            
+
+            
+        </div>
+      </section>
+      <!--category section ends-->
+
+      <!--review section starts-->
+
+      <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="https://www.shutterstock.com/image-vector/portrait-photo-icon-flat-vector-260nw-1648930807.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi nihil tempore quaerat molestiae reprehenderit? Sunt a, voluptates ipsam aliquam ve
+                    ritatis modi velit, debitis, rem ex beatae omnis dicta maiores.</p>
+                    <h3>madhupa nimsara</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.shutterstock.com/image-vector/portrait-photo-icon-flat-vector-260nw-1648930807.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi nihil tempore quaerat molestiae reprehenderit? Sunt a, voluptates ipsam aliquam ve
+                    ritatis modi velit, debitis, rem ex beatae omnis dicta maiores.</p>
+                    <h3>madhupa nimsara</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.shutterstock.com/image-vector/portrait-photo-icon-flat-vector-260nw-1648930807.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi nihil tempore quaerat molestiae reprehenderit? Sunt a, voluptates ipsam aliquam ve
+                    ritatis modi velit, debitis, rem ex beatae omnis dicta maiores.</p>
+                    <h3>madhupa nimsara</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.shutterstock.com/image-vector/portrait-photo-icon-flat-vector-260nw-1648930807.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi nihil tempore quaerat molestiae reprehenderit? Sunt a, voluptates ipsam aliquam ve
+                    ritatis modi velit, debitis, rem ex beatae omnis dicta maiores.</p>
+                    <h3>madhupa nimsara</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="https://www.shutterstock.com/image-vector/portrait-photo-icon-flat-vector-260nw-1648930807.jpg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi nihil tempore quaerat molestiae reprehenderit? Sunt a, voluptates ipsam aliquam ve
+                    ritatis modi velit, debitis, rem ex beatae omnis dicta maiores.</p>
+                    <h3>madhupa nimsara</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--review section ends-->
+
+      <!--blogs section starts-->
+      <section class="blogs" id="blogs">
+
+        <h1 class="heading">Our<span>Blogs</span></h1>
+
+        <div class="box">
+            <img src="https://blog.feedspot.com/wp-content/uploads/2017/03/toy.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-user"></i>1st may, 2024</a>
+                </div>
+                <h3>New and innovative toys</h3>
+                <p>Lorem ipsum, dolor sit amet consect</p>
+                <a heref="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://i0.wp.com/animaltoyforum.com/blog/wp-content/uploads/2024/11/ToyMany_white_lion_family_1.jpg?fit=700%2C279&ssl=1" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-user"></i>1st may, 2024</a>
+                </div>
+                <h3>New and innovative toys</h3>
+                <p>Lorem ipsum, dolor sit amet consect</p>
+                <a heref="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.toy-design.com/wp-content/uploads/2016/05/STEM_toys_-giocattoli_tecnologici_1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"><i class="fas fa-user"></i>by user</a>
+                    <a href="#"><i class="fas fa-user"></i>1st may, 2024</a>
+                </div>
+                <h3>New and innovative toys</h3>
+                <p>Lorem ipsum, dolor sit amet consect</p>
+                <a heref="#" class="btn">read more</a>
+            </div>
+        </div>
+      </section>
+
+
+      <!--blogs section ends-->
+
+      <!--footer section starts-->
+      <section class ="footer">
+        <div class="box-container">
+            <div class="box">
+               <h3>Tino toys<img src="https://st5.depositphotos.com/28687978/64677/v/450/depositphotos_646774988-stock-illustration-toy-logo-toy-letter-toy.jpg" alt=" fa-fast shopping basket"class="logo"></i></h3>
+               <p>lorem sdchiudhfudhfduhfuh</p>
+               <div class="share">
+                  <a heref="#" class="fab fa-facebook"></a>
+                  <a heref="#" class="fab fa-twitter"></a>
+                  <a heref="#" class="fab fa-instagram"></a>
+                  <a heref="#" class="fab fa-linkedin"></a>
+               </div> 
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+123-456-7890</a>
+                <a href="#" class="links"><i class="fas fa-envelope"></i>12345@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marker-alt"></i>kadawatha,sri lanka</a>
+             </div>
+
+             <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>features</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Products</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Review</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Blogs</a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subsribe for lastest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subsribe" class="btn">
+                <img src="https://www.kindpng.com/picc/m/48-480088_payment-method-credit-card-master-card-hd-png.png" class = "payment" alt="">
+            </div>
+         <div class="credit">created by <span>M N Weerasekara</span>|all rights reserved</div>
+
+      </section>
+       <!--footer section ends-->
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!--custom js file link-->
+        <script src="js/script.js"></script>
+    </body>
+</html>

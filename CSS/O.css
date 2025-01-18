@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+.header .logo a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header .navbar a:hover {
+    color: #ffd9b3;
+}
+
+/* Order Section */
+.orders {
+    padding: 50px 30px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+}
+
+.orders .heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.orders .heading span {
+    color: #ff6a00;
+}
+
+/* Order Table */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.order-table thead {
+    background-color: #ff6a00;
+    color: #fff;
+}
+
+.order-table th,
+.order-table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.order-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.order-table tbody tr:hover {
+    background-color: #ffe6cc;
+}
+
+/* Status Tags */
+.status {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.status.delivered {
+    background-color: #28a745;
+}
+
+.status.shipped {
+    background-color: #007bff;
+}
+
+.status.pending {
+    background-color: #ffc107;
+    color: #333;
+}
+
+/* Button */
+.btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #ff6a00;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e05a00;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.footer p {
+    margin: 0;
+}

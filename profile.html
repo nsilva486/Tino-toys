@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile - Tino Toys</title>
+    <link rel="stylesheet" href="css/P.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">Tino Toys</a></div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="orders.html">Orders</a>
+            <a href="logout.html">Logout</a>
+        </nav>
+    </header>
+
+    <section class="profile">
+        <div class="profile-container">
+            <h1 class="heading">User <span>Profile</span></h1>
+            <div class="profile-info">
+                <div class="avatar">
+                    <img src="https://via.placeholder.com/150" alt="User Avatar">
+                </div>
+                <div class="details">
+                    <h3>John Doe</h3>
+                    <p><strong>Email:</strong> john.doe@example.com</p>
+                    <p><strong>Phone:</strong> +1 (234) 567-890</p>
+                    <p><strong>Address:</strong> 123 Toy St, Toy Town, 12345</p>
+                    <a href="edit-profile.html" class="btn">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order History Section -->
+    <section class="order-history">
+        <div class="order-history-container">
+            <h2>Order <span>History</span></h2>
+            <table class="order-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Date</th>
+                        <th>Product</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#12345</td>
+                        <td>2024-11-10</td>
+                        <td>Toy Robot</td>
+                        <td>Shipped</td>
+                    </tr>
+                    <tr>
+                        <td>#12346</td>
+                        <td>2024-11-08</td>
+                        <td>Toy Car</td>
+                        <td>Delivered</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <div class="cart-container">
+            <h2>Your <span>Cart</span></h2>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="https://via.placeholder.com/100" alt="Toy Robot">
+                    <div class="cart-item-info">
+                        <h4>Toy Robot</h4>
+                        <p>Quantity: 1</p>
+                        <p>Price: $49.99</p>
+                    </div>
+                </div>
+                <!-- Add more cart items as needed -->
+            </div>
+            <div class="cart-summary">
+                <p><strong>Total: $49.99</strong></p>
+                <a href="checkout.html" class="btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

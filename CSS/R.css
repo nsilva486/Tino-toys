@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --orange: #ff7800;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --border: .2rem solid rgba(0, 0, 0, 0.1);
+    --outline: .1rem solid rgba(0, 0, 0, 0.1);
+    --outline-hover: .2rem solid var(--black);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+body {
+    background: #eee;
+    line-height: 1;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header .navbar a {
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+.header .navbar a:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+.header .btn-login {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    border: var(--border);
+    background: var(--orange);
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.header .btn-login:hover {
+    background: #fff;
+    color: var(--orange);
+    border-color: var(--orange);
+}
+
+.registration {
+    padding: 10rem 9%;
+    text-align: center;
+}
+
+.registration .heading {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+}
+
+.registration .heading span {
+    background: var(--orange);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.registration .form {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+}
+
+.registration .form .box {
+    width: 100%;
+    padding: 1.2rem;
+    margin: 1rem 0;
+    border: var(--border);
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.registration .form .btn {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    background: var(--orange);
+    color: #fff;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: none;
+}
+
+.registration .form .btn:hover {
+    background: var(--black);
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    margin-top: 5rem;
+}

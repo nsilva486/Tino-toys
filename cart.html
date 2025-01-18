@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Tino Toys</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">Tino Toys</a></div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <section class="cart">
+        <h1 class="heading">Your <span>Shopping Cart</span></h1>
+        <div class="cart-container">
+            <!-- Example cart items -->
+            <div class="cart-item">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/717dUxCNDNL._AC_UL600_SR600,600_.jpg" alt="Toy 1">
+                <div class="content">
+                    <h3>Bicycle</h3>
+                    <p>Price: Rs 12,000</p>
+                    <p>Quantity: <input type="number" value="1" min="1"></p>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://eu.merch.larian.com/media/cache/sylius_shop_product_original/50/fb/10d9feae892183d1ac86f2343eff.jpeg" alt="Toy 2">
+                <div class="content">
+                    <h3>Boardgame</h3>
+                    <p>Price: Rs 200</p>
+                    <p>Quantity: <input type="number" value="2" min="1"></p>
+                </div>
+                <button class="remove-btn">Remove</button>
+            </div>
+
+            <!-- Total Price -->
+            <div class="cart-total">
+                <h3>Total: Rs 12,400</h3>
+                <a href="checkout.html" class="btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">...footer content...</footer>
+</body>
+</html>
